@@ -1,9 +1,8 @@
+project_name: "bvtest"
 
-project_name: "TestExtension"
-
-application: TestExtension {
-  label: "Test Extension"
-  url: "https://localhost:8090/bundle.js"
+application: bvtest {
+  label: "Test hello world extention"
+  url: "https://localhost:8085/bundle.js"
   # file: "bundle.js
   entitlements: {
     core_api_methods: ["me"] #Add more entitlements here as you develop new functionality
