@@ -1,7 +1,7 @@
-project_name: "tile-extension"
+project_name: "extentiontest"
 
 application: vis {
-  label: "Visualization Extension"
+  label: "Test Visualization Extension "
   file: "bundle.js"
   # url: "https://localhost:8089/dist/bundle.js"
   mount_points: {
@@ -20,7 +20,7 @@ application: vis {
 }
 
 application: tile {
-  label: "Tile Extension"
+  label: "Test Tile Extension"
   file: "bundle.js"
   # url: "https://localhost:8089/dist/bundle.js"
   mount_points: {
