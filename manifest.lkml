@@ -3,7 +3,7 @@ project_name: "Test Visualization extension"
 application: tile {
   label: "Test Visualization extension"
   #file: "bundle.js"
-  url: "https://localhost:8089/dist/bundle.js"
+  url: "https://localhost:8089/bundle.js"
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
