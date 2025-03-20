@@ -1,30 +1,21 @@
-project_name: "demo-embeds"
+project_name: "Test Visualization extension"
 
-application: demo-embeds {
-  label: "Demo Embeds"
-  # use url for development
-  url: "https://localhost:8089/bundle.js"
-  # use file for production deployment
-  # file: "bundle.js"
-  entitlements: {
-    local_storage: no
-    navigation: no
-    new_window: no
-    new_window_external_urls: []
-    use_form_submit: yes
-    use_embeds: yes
-    use_downloads: no
-    use_iframes: no
-    use_clipboard: no
-    core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks"]
-    external_api_urls: []
-    oauth2_urls: []
-    scoped_user_attributes: []
-    global_user_attributes: []
-  }
+application: tile {
+  label: "Test Visualization extension"
+  #file: "bundle.js"
+  url: "https://localhost:8089/dist/bundle.js"
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
     standalone: yes
+  }
+  entitlements: {
+    local_storage: yes
+    use_form_submit: yes
+    core_api_methods: ["run_inline_query","all_lookml_models"]
+    external_api_urls: []
+    oauth2_urls: []
+    scoped_user_attributes: []
+    global_user_attributes: []
   }
 }
