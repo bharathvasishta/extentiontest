@@ -2,8 +2,8 @@ project_name: "Test Visualization extension"
 
 application: vis {
   label: "Test Visualization Extension"
-  file: "bundle.js"
-  # url: "https://localhost:8089/dist/bundle.js"
+  #file: "bundle.js"
+  url: "https://localhost:8089/dist/bundle.js"
   mount_points: {
     dashboard_vis: yes
     standalone: no
@@ -21,8 +21,8 @@ application: vis {
 
 application: tile {
   label: "Test Visualization extension"
-  file: "bundle.js"
-  # url: "https://localhost:8089/dist/bundle.js"
+  #file: "bundle.js"
+  url: "https://localhost:8089/dist/bundle.js"
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
