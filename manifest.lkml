@@ -14,7 +14,7 @@ application: bvtest {
     use_embeds: no
     use_iframes: no
     use_clipboard: no
-    external_api_urls: []
+    external_api_urls: ["https://localhost:8080","http://localhost:8080"]
     oauth2_urls: []
   }
   mount_points: {
