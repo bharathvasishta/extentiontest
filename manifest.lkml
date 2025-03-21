@@ -5,7 +5,6 @@ application: bvtest {
   url: "https://localhost:8080/bundle.js"
   # file: "bundle.js
   entitlements: {
-    core_api_methods: ["me", "all_lookml_models"] #Add more entitlements here as you develop new functionality
     local_storage: no
     navigation: no
     new_window: no
@@ -14,7 +13,8 @@ application: bvtest {
     use_embeds: no
     use_iframes: no
     use_clipboard: no
-    external_api_urls: ["https://localhost:8080","http://localhost:8080"]
+    core_api_methods: ["me", "all_lookml_models", "run_inline_query"]
+    external_api_urls: ["https://localhost:8080", "http://localhost:8080"]
     oauth2_urls: []
   }
   mount_points: {
