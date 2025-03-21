@@ -13,7 +13,7 @@ application: bvtest {
     use_embeds: no
     use_iframes: no
     use_clipboard: no
-    core_api_methods: ["me", "all_lookml_models", "run_inline_query"]
+    core_api_methods: ["run_inline_query"]
     external_api_urls: ["https://localhost:8080", "http://localhost:8080"]
     oauth2_urls: []
   }
